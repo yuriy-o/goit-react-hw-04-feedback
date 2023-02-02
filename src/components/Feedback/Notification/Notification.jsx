@@ -1,5 +1,5 @@
-import { NotifText } from './Notification.styled';
+import { NotificationText } from './Notification.styled';
 
 export const Notification = ({ message }) => {
-  return <NotifText>{message}</NotifText>;
+  return <NotificationText>{message}</NotificationText>;
 };
