@@ -7,7 +7,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
 
   return (
     <>
-      {Object.keys(options).map(key => {
+      {options.map(key => {
         return (
           <Button key={key} type="button" onClick={() => onLeaveFeedback(key)}>
             {TitleCase(key)}
